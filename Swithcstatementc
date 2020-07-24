@@ -1,12 +1,12 @@
-//The switch statement allows us to execute one code block among many alternatives an Break terminates switch statement.
-//The break statement ends the loop immediately when it is encountered. Its syntax is:
+/*The switch statement allows us to execute one code block among many alternatives an Break terminates switch statement.
+The break statement ends the loop immediately when it is encountered. Its syntax is:
 break;
 The break statement is almost always used with if...else statement inside the loop.
 
 
-// Program to create a simple calculator
-#include <stdio.h>
+Program to create a simple calculator*/
 
+#include <stdio.h>
 int main() {
     char operator;
     double n1, n2;
@@ -34,7 +34,7 @@ int main() {
             printf("%.1lf / %.1lf = %.1lf",n1, n2, n1/n2);
             break;
 
-        // operator doesn't match any case constant +, -, *, /
+     /*   // operator doesn't match any case constant +, -, *, / */
         default:
             printf("Error! operator is not correct");
     }
